@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Nov 24 13:17:00 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : csgo
+Top-level Entity Name : csgo
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 82
+Total pins : 34
+Total virtual pins : 0
+Total block memory bits : 2,045,952
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

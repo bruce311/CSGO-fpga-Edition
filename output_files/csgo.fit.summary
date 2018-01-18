@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri Nov 24 13:18:51 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : csgo
+Top-level Entity Name : csgo
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 202 / 32,070 ( < 1 % )
+Total registers : 93
+Total pins : 34 / 457 ( 7 % )
+Total virtual pins : 0
+Total block memory bits : 2,045,952 / 4,065,280 ( 50 % )
+Total RAM Blocks : 253 / 397 ( 64 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

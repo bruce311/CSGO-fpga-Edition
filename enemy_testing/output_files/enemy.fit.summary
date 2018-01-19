@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sun Nov 26 12:07:31 2017
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : enemy
+Top-level Entity Name : enemy
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 431 / 32,070 ( 1 % )
+Total registers : 324
+Total pins : 58 / 457 ( 13 % )
+Total virtual pins : 0
+Total block memory bits : 2,138,112 / 4,065,280 ( 53 % )
+Total RAM Blocks : 268 / 397 ( 68 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,16 @@
+
+State Machine - |enemy|enemyfsm:enemysignals|currentstate
+Name currentstate.ENDSCREEN currentstate.ERASE_ENEMY4 currentstate.ENEMY4_DRAW currentstate.ENEMY4_WAIT currentstate.ERASE_ENEMY3 currentstate.ENEMY3_DRAW currentstate.ENEMY3_WAIT currentstate.ERASE_ENEMY2 currentstate.ENEMY2_DRAW currentstate.ENEMY2_WAIT currentstate.ERASE_ENEMY1 currentstate.ENEMY1_DRAW currentstate.START 
+currentstate.START 0 0 0 0 0 0 0 0 0 0 0 0 0 
+currentstate.ENEMY1_DRAW 0 0 0 0 0 0 0 0 0 0 0 1 1 
+currentstate.ERASE_ENEMY1 0 0 0 0 0 0 0 0 0 0 1 0 1 
+currentstate.ENEMY2_WAIT 0 0 0 0 0 0 0 0 0 1 0 0 1 
+currentstate.ENEMY2_DRAW 0 0 0 0 0 0 0 0 1 0 0 0 1 
+currentstate.ERASE_ENEMY2 0 0 0 0 0 0 0 1 0 0 0 0 1 
+currentstate.ENEMY3_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 1 
+currentstate.ENEMY3_DRAW 0 0 0 0 0 1 0 0 0 0 0 0 1 
+currentstate.ERASE_ENEMY3 0 0 0 0 1 0 0 0 0 0 0 0 1 
+currentstate.ENEMY4_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 1 
+currentstate.ENEMY4_DRAW 0 0 1 0 0 0 0 0 0 0 0 0 1 
+currentstate.ERASE_ENEMY4 0 1 0 0 0 0 0 0 0 0 0 0 1 
+currentstate.ENDSCREEN 1 0 0 0 0 0 0 0 0 0 0 0 1 

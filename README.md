@@ -1,1 +1,2 @@
-# CSGO-fpga-Edition
+# CSGO-FPGA-
+# CSGO-FPGA

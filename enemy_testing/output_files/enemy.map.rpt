@@ -1,0 +1,232 @@
+Analysis & Synthesis report for enemy
+Sun Nov 26 13:17:42 2017
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Sun Nov 26 13:17:42 2017           ;
+; Quartus Prime Version       ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name               ; enemy                                       ;
+; Top-level Entity Name       ; enemy                                       ;
+; Family                      ; Cyclone V                                   ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; enemy              ; enemy              ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Synthesis Seed                                                                  ; 1                  ; 1                  ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+    Info: Processing started: Sun Nov 26 13:17:30 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off enemy -c enemy
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 3 design units, including 3 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/csgo_forreal/counters.v
+    Info (12023): Found entity 1: counters File: //SRVB/Homes$/houjingw/Desktop/ece241/project/csgo_forreal/counters.v Line: 2
+    Info (12023): Found entity 2: ClockDivider File: //SRVB/Homes$/houjingw/Desktop/ece241/project/csgo_forreal/counters.v Line: 49
+    Info (12023): Found entity 3: twentySixBitCounter File: //SRVB/Homes$/houjingw/Desktop/ece241/project/csgo_forreal/counters.v Line: 60
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/success.v
+    Info (12023): Found entity 1: success File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/success.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemyback4.v
+    Info (12023): Found entity 1: enemyback4 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyback4.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemyback3.v
+    Info (12023): Found entity 1: enemyback3 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyback3.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemyback2.v
+    Info (12023): Found entity 1: enemyback2 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyback2.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemyback1.v
+    Info (12023): Found entity 1: enemyback1 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyback1.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemy4.v
+    Info (12023): Found entity 1: enemy4 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy4.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemy3.v
+    Info (12023): Found entity 1: enemy3 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy3.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemy2.v
+    Info (12023): Found entity 1: enemy2 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy2.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemy1.v
+    Info (12023): Found entity 1: enemy1 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy1.v Line: 40
+Info (12021): Found 11 design units, including 11 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemy.v
+    Info (12023): Found entity 1: enemy File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 2
+    Info (12023): Found entity 2: datapath File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 218
+    Info (12023): Found entity 3: enemyfsm File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 920
+    Info (12023): Found entity 4: Hex File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1109
+    Info (12023): Found entity 5: hex0 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1173
+    Info (12023): Found entity 6: hex1 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1179
+    Info (12023): Found entity 7: hex2 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1185
+    Info (12023): Found entity 8: hex3 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1191
+    Info (12023): Found entity 9: hex4 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1197
+    Info (12023): Found entity 10: hex5 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1203
+    Info (12023): Found entity 11: hex6 File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1209
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/vga_pll.v
+    Info (12023): Found entity 1: vga_pll File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/vga_pll.v Line: 36
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/vga_controller.v
+    Info (12023): Found entity 1: vga_controller File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/vga_controller.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/vga_address_translator.v
+    Info (12023): Found entity 1: vga_address_translator File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/vga_address_translator.v Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/vga_adapter.v
+    Info (12023): Found entity 1: vga_adapter File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/vga_adapter.v Line: 78
+Info (12021): Found 2 design units, including 2 entities, in source file //srvb/homes$/houjingw/desktop/ece241/project/parts_testing/enemy/enemyenable.v
+    Info (12023): Found entity 1: enemyenable File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyenable.v Line: 2
+    Info (12023): Found entity 2: twentySevenBitCounter File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemyenable.v Line: 16
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(166): created implicit net for "enemy_plot2" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 166
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(167): created implicit net for "enemy_plot3" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 167
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(168): created implicit net for "enemy_plot4" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 168
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(171): created implicit net for "enemy_erase2" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 171
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(172): created implicit net for "enemy_erase3" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 172
+Warning (10236): Verilog HDL Implicit Net warning at enemy.v(173): created implicit net for "enemy_erase4" File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 173
+Error (10161): Verilog HDL error at enemy.v(974): object "START" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 974
+Error (10161): Verilog HDL error at enemy.v(995): object "START" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 995
+Error (10161): Verilog HDL error at enemy.v(996): object "START" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 996
+Error (10161): Verilog HDL error at enemy.v(1099): object "START" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: //SRVB/Homes$/houjingw/Desktop/ece241/project/PARTS_testing/enemy/enemy.v Line: 1099
+Info (144001): Generated suppressed messages file //SRVB/Homes$/houjingw/Desktop/enemy_testing/output_files/enemy.map.smsg
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 4 errors, 7 warnings
+    Error: Peak virtual memory: 878 megabytes
+    Error: Processing ended: Sun Nov 26 13:17:43 2017
+    Error: Elapsed time: 00:00:13
+    Error: Total CPU time (on all processors): 00:00:25
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in //SRVB/Homes$/houjingw/Desktop/enemy_testing/output_files/enemy.map.smsg.
+
+

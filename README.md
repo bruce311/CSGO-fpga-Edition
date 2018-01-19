@@ -1,2 +1,2 @@
-# CSGO-FPGA
+# CSGO_FPGA_Design Project
 This is a FPGA hardware design project using DE1-SoC development set. Verilog HDL is used as the primary deisgn language. The project mainly demonstrates the implementation & application of Finite State Machine (FSM), control data path and manipulation of VGA display with ROM (read only image storage random access memory). The extra features include external keyboard interface, customized in-game reaction speed, optimized gaming resolution with limited hardware setup. Overall it is a successfull project which demonstrates the steps and iterations of a complete engineering design. 
